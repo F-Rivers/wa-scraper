@@ -38,3 +38,10 @@ https://github.com/Rob--W/cors-anywhere/issues/301 request access to temporary
 server  
 info renders in browser console this circumvents issue with cors (because we're
 not evil)
+
+# brainstorming
+
+- if .gov updates styling, our code will break
+  - ? strip markup from content and keep text?
+- strip out code and leave only text
+  - can avoid styling breaking issues
