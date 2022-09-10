@@ -33,3 +33,8 @@ solution:
 npm uninstall react-scripts
 npm install react-scripts@4.0.3
 ```
+
+https://github.com/Rob--W/cors-anywhere/issues/301 request access to temporary
+server  
+info renders in browser console this circumvents issue with cors (because we're
+not evil)

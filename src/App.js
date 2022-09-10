@@ -8,7 +8,7 @@ class App extends Component {
 	componentDidMount() {
 		// use the request-promise library to fetch the HTML from pokemon.org
 		rp(
-			"https://cors-anywhere.herokuapp.com/https://www.pokemon.com/us/pokedex/"
+			"https://cors-anywhere.herokuapp.com/https://apps.leg.wa.gov/rcw/default.aspx?cite=69.50.4013"
 		).then((html) => console.log(html));
 	}
 
