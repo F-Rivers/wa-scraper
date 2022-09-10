@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import rp from "request-promise";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import "./App.css";
+
+class App extends Component {
+	state = {};
+
+	componentDidMount() {
+		// use the request-promise library to fetch the HTML from pokemon.org
+		rp("https://pokedex.org/").then((html) => console.log(html));
+	}
+
+	render() {
+		return (
+			<div>
+				<p>hello</p>
+			</div>
+		);
+	}
 }
 
 export default App;
