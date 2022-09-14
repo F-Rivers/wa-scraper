@@ -2,14 +2,10 @@ github repo: https://github.com/F-Rivers/wa-scraper
 
 # sources used:
 
+https://www.youtube.com/watch?v=-3lqUHeZs_0&ab_channel=CodewithAniaKub%C3%B3w
 https://robghchen.medium.com/how-to-scrape-a-static-website-846bd9c6ed28
 
 # tech stack
-
-backend: lite weight db
-
-- sqlite
-- python flask
 
 # initial commands:
 
@@ -45,3 +41,15 @@ not evil)
   - ? strip markup from content and keep text?
 - strip out code and leave only text
   - can avoid styling breaking issues
+
+create package.json with app details
+
+```
+npm init
+```
+
+install express dependency
+
+```
+npm i express
+```
